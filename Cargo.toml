@@ -1,0 +1,14 @@
+[package]
+name = "offpr"
+version = "0.0.1"
+authors = ["Samuel Marks <samuel@offscale.io>"]
+license = "Apache-2.0"
+homepage = "https://github.com/offscale/offpr"
+repository = "https://github.com/offscale/offpr"
+description = "offpr connects different webhooks together, e.g.: Github and Gitlab"
+readme = "README.md"
+
+[dependencies]
+github-rs = "0.6"
+serde_json = "1.0"
+structopt = "0.2"
